@@ -1,10 +1,11 @@
 {
   "required": true,
   "minVersion": "0.8",
-  "package": "net.mofusya.examplemod.mixin",
+  "package": "net.mofusya.glasscannontools.mixin",
   "compatibilityLevel": "JAVA_17",
-  "refmap": "examplemod.refmap.json",
+  "refmap": "glasscannontools.refmap.json",
   "mixins": [
+    "ItemMixin"
   ],
   "client": [
   ],
